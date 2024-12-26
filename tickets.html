@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <title>Flight - Booking</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Flight Booking</h1>
+        <form action="#" method="post">
+            <div class ="form-group">
+                <label for="from">From:</label>
+                <input type="text" name="from" id="from" placeholder="Enter origin:">
+            </div>
+            <div class ="form-group">
+                <label for="to">To:</label>
+                <input type="text" name="to" id="to" placeholder="Enter destination:">
+            </div>
+            <div class ="form-group">
+                <label for="departure-date">Departure date:</label>
+                <input type="date" name="departure-date" id="departure-date">
+            </div>
+            <div class ="form-group">
+                <label for="Trip">Trip:</label>
+                <input type="radio" name="Oneway" id="Oneway" value="Oneway">Oneway
+                <input type="radio" name="Roundtrip" id="Roundtrip" value="Roundtrip">Roundtrip
+            </div>
+            <div class ="form-group">
+                <label for="return-date">Return date:(if round trip):</label>
+                <input type="date" name="return-date" id="return-date" >
+            </div>
+            <div class ="form-group">
+                <label for="passengers">Number of passengers</label>
+                <select name="passengers" id="passengers" >
+                    <option value='1'>1</option>
+                    <option value='2'>2</option>
+                    <option value='3'>3</option>
+                    <option value='4'>4</option>
+                </select>
+            </div>
+            <div class ="form-group">
+                <label for="Type">Type:</label>
+                <input type="checkbox" name="Economy" id="Economy" value="Economy">Economy
+                <input type="checkbox" name="Businessclass" id="Businessclass" value="Businessclass">Businessclass
+                <input type="checkbox" name="Premium" id="Premium" value="Premium">Premium
+            </div>
+            <div class ="form-group">
+              <button ><a href="next.html" >Submit</a></button> 
+            </div>
+        </form>
+    </body>
+</html>
